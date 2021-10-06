@@ -1,6 +1,8 @@
 body{
   background-color:#E64398;
+  color: #FOEBF4;
 }
+
 #MainHeader{
   background-color: #F172A1;
   border-radius: 50px;
@@ -54,7 +56,7 @@ padding-left: 50px;
 #HowTo{
   font-family: 'Coustard', serif;
   color: white;
-  background-color: #A1C3D1;
+  background-color: #F172A1;
   margin-left: 100px;
   border-radius: 50px;
 }
@@ -62,4 +64,31 @@ padding-left: 50px;
 #HT1{
   margin-left: 100px;
   margin-right: 150px;
+}
+
+.DidYou{
+  background-color: #F172A1;
+  border-radius: 60px;
+}
+
+pre{
+  font-family: 'Coustard', serif;
+  font-size: 20px;
+}
+
+#DYL1{
+  font-family: 'Coustard', serif;
+  font-weight: lighter;
+  color: white;
+  padding-top: 30px;
+  padding-left: 0px;
+  padding-bottom: 30px;
+}
+
+#DYL2{
+  padding-left: 10px;
+}
+
+.ChooseANiche{
+  background-color: #B39BC8;
 }
