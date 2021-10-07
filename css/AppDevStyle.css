@@ -6,6 +6,8 @@ body{
 #MainHeader{
   background-color: #F172A1;
   border-radius: 50px;
+
+  border: 2px solid white;
 }
 
 h1{
@@ -24,6 +26,8 @@ padding-left: 50px;
   margin-top: 10px;
   background-color: #B39BC8;
   border-radius: 30px;
+
+  border: 2px solid white;
 }
 
 #NavBar-List{
@@ -61,6 +65,8 @@ padding-left: 50px;
   margin-left: 200px;
   margin-right: 200px;
   border-radius: 50px;
+
+  border: 2px solid white;
 }
 
 .CodingVsGuiTable{
@@ -71,6 +77,8 @@ padding-left: 50px;
   padding-bottom: 30px;
   font-family: 'Coustard', serif;
   color: white;
+
+  border: 2px solid white;
 }
 
 #CodingVsGuiTableHeading, #CodingVsGuiTableDescription, #CodingVsGuiTableHere, #CodingVsGuiTableList{
@@ -85,10 +93,14 @@ padding-left: 50px;
   font-size: 18px;
   color: white;
   text-align: center;
+
+  border: 2px solid white;
 }
 
 #CodingVsGuiTableHeading{
 font-size: 25px;
+
+border: 2px solid white;
 }
 
 th, td{
@@ -107,6 +119,8 @@ th, td{
   margin-left: 200px;
   margin-right: 200px;
   border-radius: 50px;
+
+  border: 2px solid white;
 }
 
 .ResourcesTable{
@@ -117,6 +131,8 @@ th, td{
   padding-bottom: 30px;
   font-family: 'Coustard', serif;
   color: white;
+
+  border: 2px solid white;
 }
 
 #ResourcesTableHeading, #Resources1st, #Resources2nd, #Resource3rd{
@@ -127,10 +143,14 @@ th, td{
   font-size: 18px;
   color: white;
   text-align: center;
+
+  border: 2px solid white;
 }
 
 #ResourcesHeader{
 font-size: 50px;
+
+border: 2px solid white;
 }
 
 a{
@@ -138,6 +158,7 @@ a{
   text-decoration: none;
 }
 
-#RH-img{
-
+#ADH1, #RH1{
+  border: 2px solid white;
+  border-radius: 2px;
 }

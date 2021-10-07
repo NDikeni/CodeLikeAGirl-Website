@@ -6,6 +6,8 @@ body{
 #MainHeader{
   background-color: #F172A1;
   border-radius: 50px;
+
+  border: 2px solid white;
 }
 
 h1{
@@ -24,6 +26,8 @@ padding-left: 50px;
   margin-top: 10px;
   background-color: #B39BC8;
   border-radius: 30px;
+
+  border: 2px solid white;
 }
 
 #NavBar-List{
@@ -60,6 +64,8 @@ a{
   background-color: #F172A1;
   margin-left: 100px;
   border-radius: 50px;
+
+  border: 2px solid white;
 }
 
 #ContactInfo{
@@ -86,10 +92,15 @@ a{
 
   background-color: #F172A1;
   border-radius: 50px;
+
+  border: 2px solid white;
 }
 
 .Form{
   margin-right: 1000px;
+
+  height: 2000;
+  width: 2000;
 }
 
 button{
@@ -97,4 +108,7 @@ button{
   color: white;
   background-color: #B39BC8;
   border-radius: 50px;
+
+  width: 500;
+  height: 500;
 }
