@@ -1,0 +1,74 @@
+body{
+  background-color:#E64398;
+  color: #FOEBF4;
+}
+
+#MainHeader{
+  background-color: #F172A1;
+  border-radius: 50px;
+
+  border: 2px solid white;
+}
+
+h1{
+  font-family: 'Coustard', serif;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-left: 290px;
+
+}
+
+#MainHeader-img{
+padding-left: 50px;
+}
+
+#NavBar{
+  margin-top: 10px;
+  background-color: #B39BC8;
+  border-radius: 30px;
+
+  border: 2px solid white;
+}
+
+#NavBar-List{
+  list-style: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  color: white;
+}
+
+#NB1, #NB2, #NB3{
+  font-family: 'Coustard', serif;
+  float: left;
+  display: block;
+  padding: 20px 22px;
+}
+
+#NB1{
+  margin-left: 50px;
+}
+
+#NB1:Hover, #NB2:Hover, #NB3:Hover{
+  background: #d7cae2;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.Youtube{
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 440px;
+
+  background-color: #B39BC8;
+  border-radius: 30px;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  border: 2px solid white;
+}
