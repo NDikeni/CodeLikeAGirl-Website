@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Info</title>
+    <link href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/ContactInfoStyle.css">
+
+    <script type="text/javascript" src="ConactInfo.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+
+  </head>
+  <body>
+    <!---Header section----------------------------------------------------------------------------------->
+    <div id="MainHeader">
+      <table>
+        <tr>
+          <td id="MainHeader-img"><a href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/5741/5741779.png" width="84" height="84"></a></td>
+          <td><h1>CODE LIKE A GIRL</h1></td>
+        </tr>
+      </table>
+    </div>
+    <!-------------------------------------------------------------------------------------------------------------->
+    <!---Navigation bar----------------------------------------------------------------------------------->
+    <div id="NavBar">
+      <ul id="NavBar-List">
+        <li id="NB1"><a href="about.html">About me</a></li>
+        <li id="NB2"><a href="ContactInfo.html">Contact info</a></li>
+        <li id="NB3">Inspiring Girls in Tech</li>
+      </ul>
+    </div>
+    <!-------------------------------------------------------------------------------------------------------------->
+    <!---Conatct  info header----------------------------------------------------------------------------------->
+    <div class="ContactInfo">
+        <table id="ContactInfo">
+          <tr>
+            <td id="ContactInfoTxt"><h2 id="CI2"> Please fill in your contact info: </h2></td>
+            <td> </td>
+          </tr>
+        </table>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------->
+    <!--Fornm------------------------------------------------------------------------------------------------------------>
+    <div class="Form">
+      <form name="myForm" >
+      <div class="TextBoxes">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="eMail">Email:  </label>
+        <input type="text" id="eMail" name="eMail"><br><br>
+        <button onClick="Submitted()"> Submit </button>
+      </div>
+    </div>
+</form>
+  </body>
+</html>
